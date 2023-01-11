@@ -1,6 +1,6 @@
 # Customer Feedback Analysis
  
-![design](images/cover_pic.jpg)
+<img src="images/cover_pic.jpg">
 
 ### Evaluation
 
