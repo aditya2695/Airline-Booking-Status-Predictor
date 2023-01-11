@@ -1,6 +1,6 @@
 # Airline Booking Status Predictor
  
-<img src="images/cover_pic.jpg">
+<img src="images/cover_pic.jpg" width="500">
 
 #### Introduction
 
