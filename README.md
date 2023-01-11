@@ -1,10 +1,10 @@
 # Airline Booking Status Predictor
  
- <div style="text-align:center;">
-    <img src="images/cover_pic.jpg">
+<div style="text-align:center;">
+    <img src="images/cover_pic.jpg" width="800">
 </div>
 
-#### Introduction
+## Introduction
 
 Airline booking status prediction is a key task in the airline industry that can help to optimize the allocation of resources and improve customer experience. In this project, a model is developed to predict the booking status of airline passengers. The goal of this project is to accurately predict whether a passenger will ultimately book their flight or not.
 
@@ -13,7 +13,7 @@ The model uses a dataset that includes information about the passengers, such as
 The performance of the model was evaluated using metrics such as accuracy, precision, recall, and AUC-ROC. The model achieved a good performance, which demonstrates the feasibility of using machine learning to predict the booking status of airline passengers. This project can be a useful tool for airline companies, to optimize their resources and to improve customer experience.
 
 
-### Evaluation
+## Evaluation
 
 <ul>
     <li> 
@@ -68,13 +68,13 @@ The performance of the model was evaluated using metrics such as accuracy, preci
 
 #### Feature Importances
 
- <div style="text-align:center;">
-    <img src="images/importances.png">
-</div>
+
+<img src="images/importances.png">
+
+
 #### AUC-ROC
 
- <div style="text-align:center;">
-    <img src="images/ROC.png">
-</div>
+<img src="images/ROC.png">
+
 AUC-ROC values range from 0 to 1, with a value of 1 indicating a perfect classifier, and a value of 0.5 indicating the performance of a random classifier. So, in this case, the classifier performs better than a random classifier and the result is decent.
 
