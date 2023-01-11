@@ -15,20 +15,7 @@ The performance of the model was evaluated using metrics such as accuracy, preci
 
 ## Evaluation
 
-<ul>
-    <li> 
-        The most important variable in the model was booking_origin with a score of 0.30
-    </li> 
-    <li>route,purchase lead and length of stay were significant
-    </li>
-    <li>  
-        Also, Information about the flight, e.g. flight
-        duration were also significant.
-    </li> 
-    <li> 
-        RF_model1 and RF_model2 are random forest models and both has similar accuracy of 71% but RF_model2 has better precision and recall
-    </li> 
-</ul>
+
 
 <table>
 
@@ -70,6 +57,21 @@ The performance of the model was evaluated using metrics such as accuracy, preci
 
 
 <img src="images/importances.png">
+
+<ul>
+    <li> 
+        The most important variable in the model was booking_origin with a score of 0.30
+    </li> 
+    <li>route,purchase lead and length of stay were significant
+    </li>
+    <li>  
+        Also, Information about the flight, e.g. flight
+        duration were also significant.
+    </li> 
+    <li> 
+        RF_model1 and RF_model2 are random forest models and both has similar accuracy of 71% but RF_model2 has better precision and recall
+    </li> 
+</ul>
 
 
 #### AUC-ROC
