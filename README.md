@@ -23,6 +23,41 @@
     </li> 
 </ul>
 
+<table>
+
+<tr>
+    <th>Model</th>
+    <th>Accuracy</th>
+    <th>Precision</th>
+    <th>Recall</th>
+    <th>F1-score</th>
+</tr>
+
+<tr>
+    <td>Base Model</td>
+    <td>0.83</td>
+    <td>0.40</td>
+    <td>0.24</td>
+    <td>0.30</td>
+</tr>
+
+<tr>
+    <td>RF_model1</td>
+    <td>0.71</td>
+    <td>0.64</td>
+    <td>0.61</td>
+    <td>0.68</td>
+</tr>
+<tr>
+    <td>RF_model2</td>
+    <td>0.71</td>
+    <td>0.66</td>
+    <td>0.70</td>
+    <td>0.68</td>
+</tr>
+</table>
+
+RF_model1 and RF_model2 are random forest models and both has similar accuracy of 71% but RF_model2 has better precision and recall
 
 #### Feature Importances
 
