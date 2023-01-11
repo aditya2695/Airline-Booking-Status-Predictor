@@ -76,5 +76,6 @@ The performance of the model was evaluated using metrics such as accuracy, preci
 
 <img src="images/ROC.png">
 
+The above figure shows TPR-FPR plot with an AUC of 0.770.
 AUC-ROC values range from 0 to 1, with a value of 1 indicating a perfect classifier, and a value of 0.5 indicating the performance of a random classifier. So, in this case, the classifier performs better than a random classifier and the result is decent.
 
