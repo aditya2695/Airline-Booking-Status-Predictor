@@ -2,24 +2,24 @@
  
 <img src="images/cover_pic.jpg">
 
+####
+
+
+
 ### Evaluation
 
 <ul>
     <li> 
-        The most important variable in the model was
-        purchase_lead, that is the time between purchase and
-        departure.
+        The most important variable in the model was booking_origin with a score of 0.30
     </li> 
+    <li>route,purchase lead and length of stay were significant
+    </li>
     <li>  
-        Information about the flight, e.g. flight time and
-        duration was also significant, however booking origin of
-        the customer was not important.
+        Also, Information about the flight, e.g. flight
+        duration were also significant.
     </li> 
     <li> 
-        The accuracy of the model was approximately 0.7
-        (Precision) and 0.003 (Recall), showing that this model
-        requires more improvement. I suggest adding more
-        customer-centric features into the model.
+        RF_model1 and RF_model2 are random forest models and both has similar accuracy of 71% but RF_model2 has better precision and recall
     </li> 
 </ul>
 
@@ -57,13 +57,15 @@
 </tr>
 </table>
 
-RF_model1 and RF_model2 are random forest models and both has similar accuracy of 71% but RF_model2 has better precision and recall
+
 
 #### Feature Importances
 
 <img src="images/importances.png">
 
-#### ROC
+#### AUC-ROC
 
 <img src="images/ROC.png">
+
+AUC-ROC values range from 0 to 1, with a value of 1 indicating a perfect classifier, and a value of 0.5 indicating the performance of a random classifier. So, in this case, the classifier performs better than a random classifier and the result is decent.
 
